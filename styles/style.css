@@ -1,1 +1,155 @@
-/* место для вашего кода */
+.header {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    padding: 96px 50px 92px;
+}
+
+.header__logo-image{
+    display: block;
+    width: 148px;
+    height: 105px;
+    }
+
+.header__menu{
+    font-size: 18px;
+}
+.header__links-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.header__links-list-item_no-bullit {
+    list-style: none;
+}
+
+.header__links-list-item {
+    list-style: circle;
+}
+
+.address {
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    color: #000;
+    font-style: normal;
+}
+
+.header__address {
+    justify-self: end;
+    max-width: 240px;
+}
+
+.cover {
+    position: relative;
+    background: url(../images/cover.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.cover .description {
+    z-index: 2;
+}
+
+
+.title-cover {
+    padding: 165px 50px 106px 50px;
+
+}
+.aligned-text {
+    z-index: 2;
+    position: relative;
+    display: block;
+
+    font-weight: 700;
+    color: #FFF;
+    font-size: 100px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 30px; /* 30% от размера */
+ }
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.cover__description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px 50px;
+}
+.cover__description-text {
+    z-index: 2;
+    position: relative;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    text-transform: uppercase;
+    word-spacing: 20px;
+    color: #FFF
+}
+
+.bet-button {
+    z-index: 2;
+    position: relative;
+    background-color: transparent;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 22px;
+    text-transform: uppercase;
+    border: 1px solid #FFF;
+    padding: 12px 32px 11px 31px;
+    box-sizing: border-box;
+}
+
+.lots {
+    margin: 180px 24px 120px;
+}
+
+.lots__heading {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 40px;
+    padding-bottom: 27px;
+}
+
+.lots__card-list {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.lots__card-list-item {
+    height: 596px;
+    min-height: 334px;
+}
+
+.card-link {
+    height: 100%;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    flex-direction: column;
+
+}
