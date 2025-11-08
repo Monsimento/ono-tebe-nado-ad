@@ -5,13 +5,13 @@
     padding: 96px 50px 92px;
 }
 
-.header__logo-image{
+.header__logo-image {
     display: block;
     width: 148px;
     height: 105px;
     }
 
-.header__menu{
+.header__menu {
     font-size: 18px;
 }
 .header__links-list {
@@ -161,12 +161,6 @@
     z-index: 2;
 }
 
-.lots__card-list {
-    display: flex;
-    flex: 1;
-
-}
-
 .card_type_film {
     background: url(../images/card-lot-01.jpg);
     background-position: center center;
@@ -270,12 +264,6 @@
   display: flex;
   flex-direction: column;
   font-style: normal;
-}
-
-.address a {
-  color: #000;
-  text-decoration: none;
-  font-size: 18px;
 }
 
 .footer__menu-list {
