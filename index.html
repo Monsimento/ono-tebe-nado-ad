@@ -14,8 +14,8 @@
       <nav class="header__menu">
         <ul class="header__links-list">
           <li class="header__links-list-item_no-bullit">главная</li>
-          <li class="header__links-list-item">посмотреть лоты</li>
-          <li class="header__links-list-item">об аукционе</li>
+          <li class="header__links-list-item address_underline show_2px">посмотреть лоты</li>
+          <li class="header__links-list-item address_underline">об аукционе</li>
         </ul>
       </nav>
       <a class="header__logo">
@@ -28,23 +28,28 @@
           <a class="address_underline" href="tel:+70000000">
             +9 999 555 5555
           </a>
-          <a class="address_underline" href="mailto:mail@example.com">
+          <a class="address_underline mail_header" href="mailto:mail@example.com">
             info@sobaka.ge
           </a>
-          <span>
-          наб. Принсенграхт 263- 265, Амстердам
-        </span>
+          <span class="nab_Pr">
+          наб. Принсенграхт 263-</span>
+          <span class="second_Pr">265, Амстердам
+          </span>
       </address>
     </header>
     <main>
       <section class="cover">
         <h1 class="title-cover">
-          <span class="aligned-text">оно  </span>
+          <span class="aligned-text text-left">оно</span>
           <span class="aligned-text text-center">тебе</span>
           <span class="aligned-text text-right">надо</span>
         </h1>
         <div class="cover__description">
-          <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
+          <span class="cover__description-text">Аукцион вещей,
+          <span class="cover__description-text pr second_pr">в</span>   
+          <span class="cover__description-text pr third_pr">которые</span>
+          <span class="cover__description-text pr forth_pr">никто не</span>
+          <span class="cover__description-text pr fifth_pr">верил</span>
           <button class="bet-button">Сделать ставку</button>
         </div>
         <div class="overlay"></div>
@@ -88,7 +93,7 @@
             </a>
           </li>
         </ul>
-        <a class="lots__look-more-link" href="#0">посмотреть больше</a>
+        <a class="lots__look-more-link address_underline more_link" href="#0">посмотреть больше</a>
       </section>
       <section class="about">
         <div class="about__logo about__column">
@@ -96,20 +101,21 @@
         </div>
         <div class="about__column__text">
           <h1 class="about__title">Об аукционе</h1>
-          <p class="about__text">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>  
-          <p class="about__text second_p">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря
-на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми. </p>
+          <p class="about__text">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть</p>
+          <p class="about__text">ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>  
+          <p class="about__text second_p">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря</p>
+          <p class="about__text">на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми. </p>
         </div>  
       </section>
     </main>
       <footer class="footer">
-        <address class="address">
+        <address class="address footer_address">
           <a class="address_underline" href="tel:+99995555555">+9 999 555 5555</a>
-          <a class="address_underline" href="mailto:info@nebula.ge">info@nebula.ge</a>
-          <span>
-          наб. Принсенграхт 263- 265,
+          <a class="pos address_underline mail" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+          <span class="pos first_address">
+          наб. Принсенграхт 263-265,
           </span>
-          <span>Амстердам</span>
+          <span class=" pos second_address">Амстердам</span>
         </address>
         
         <nav class="footer__menu">
@@ -118,10 +124,10 @@
               <a href="#0" class="footer__menu-link footer__menu-link_active">главная</a>
             </li>
             <li class="footer__menu-list-item">
-              <a href="#0" class="footer__menu-link">посмтотреть лоты</a>
+              <a href="#0" class="footer__menu-link footer__menu-link-check">посмотреть лоты</a>
             </li>
             <li class="footer__menu-list-item">
-              <a href="#0" class="footer__menu-link">об аукционе</a>
+              <a href="#0" class="footer__menu-link footer__menu-link_about">об аукционе</a>
             </li>
           </ul>
         </nav>
