@@ -129,10 +129,11 @@
 
 .cover__description {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    padding: 112px 0 50px 50px;
+    justify-content: space-around;
+    /* align-content: end; */
+    /* padding: 112px 0 50px 5  0px; */
+    margin-left: 28px;
 }
 .cover__description-text {
     z-index: 2;
@@ -143,7 +144,8 @@
     text-transform: uppercase;
     word-spacing: 20px;
     color: #FFF;
-    margin-top: 2px;
+    /* margin-top: 2px; */
+    margin-top: 117px;
 
 }
 
@@ -152,19 +154,19 @@
 }
 
 .second_pr {
-    right: 3px;
+    right: 24px;
 }
 
 .third_pr {
-    right: 5px;
+    right: 44px;
 }
 
 .forth_pr {
-    right: 7px;
+    right: 67px;
 }
 
 .fifth_pr {
-    right: 9px;
+    right: 89px;
 }
 
 
@@ -177,9 +179,12 @@
     font-size: 22px;
     text-transform: uppercase;
     border: 1px solid #FFF;
-    padding: 12px 32px 11px 31px;
-    box-sizing: border-box;
-    left: 73px;
+    padding: 8px 33px 9px 31px;
+    /* box-sizing: border-box;
+    left: 73px; */
+    margin-top: 115px;
+    /* margin-right: 29px; */
+    right: 27px;
 }
 
 .lots {
@@ -348,12 +353,13 @@
 
 .footer_address {
   left: 51px;
-  bottom: 5px; 
+  bottom: 5px;
 }
 
 .pos {
     position: relative;
 }
+
 .mail {
     top: 3px;
     right: 1px;
